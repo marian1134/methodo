@@ -28,7 +28,7 @@ function App() {
       setResultado(null)
 
       const respuesta = await fetch(
-        'http://localhost:3000/api/recomendacion',
+        'https://methodo-backend.onrender.com/api/recomendacion',
         {
           method: 'POST',
           headers: {
